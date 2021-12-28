@@ -1,0 +1,30 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Software/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot imm_gen_tb_behav xil_defaultlib.imm_gen_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:40]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:46]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:52]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:58]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:64]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:70]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:76]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v:82]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 40, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 46, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 52, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 58, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 64, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 70, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 76, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 82, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sim_1/new/imm_gen_tb.v
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.imm_gen_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot imm_gen_tb_behav

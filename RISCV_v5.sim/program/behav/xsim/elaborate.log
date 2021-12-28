@@ -1,0 +1,30 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Software/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot program_tb_behav xil_defaultlib.program_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/program/new/program_tb.v:133]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 133, File C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/program/new/program_tb.v
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instr_mem(Depth=1024)
+Compiling module xil_defaultlib.regfile
+Compiling architecture behavioral of entity xil_defaultlib.Control_unit [control_unit_default]
+Compiling module xil_defaultlib.imm_gen(LUI=7'b0110111,AUIPC=7'b...
+Compiling architecture behavioral of entity xil_defaultlib.ALU_control [alu_control_default]
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.data_ext
+Compiling module xil_defaultlib.data_mem(depth=1024)
+Compiling module xil_defaultlib.pc_adder
+Compiling architecture behavioral of entity xil_defaultlib.processor_top [processor_top_default]
+Compiling module xil_defaultlib.program_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot program_tb_behav

@@ -1,0 +1,18 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Software/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Memory_tb_behav xil_defaultlib.Memory_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:113]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:114]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:115]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:116]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:118]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:119]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:120]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:122]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:123]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v:124]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
