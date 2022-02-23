@@ -1,6 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/ALU_control.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ALU_control'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/Control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/Control_unit.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Control_unit'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/processor_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/processor_top.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'processor_top'

@@ -2,14 +2,16 @@
 verilog xil_defaultlib  \
 "../../../../RISCV_v5.srcs/sources_1/new/PC.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/alu.v" \
+"../../../../RISCV_v5.srcs/sources_1/new/alu_ctrl.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/data_ext.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/data_mem.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/imm_gen.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/instr_mem.v" \
-"../../../../RISCV_v5.srcs/sources_1/new/pc_adder.v" \
+"../../../../RISCV_v5.srcs/sources_1/new/processor_ctrl.v" \
+"../../../../RISCV_v5.srcs/sources_1/new/processor_top.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/regfile.v" \
 "../../../../RISCV_v5.srcs/sources_1/new/shifter.v" \
-"../../../../RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v" \
+"../../../../RISCV_v5.srcs/Instruction_simulation/new/Rtype_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

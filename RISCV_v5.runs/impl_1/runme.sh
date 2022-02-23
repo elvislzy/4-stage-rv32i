@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.runs/impl_1'
+HD_PWD='D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

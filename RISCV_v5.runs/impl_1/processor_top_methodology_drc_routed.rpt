@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
-| Date         : Fri Dec 17 15:25:58 2021
+| Date         : Wed Jan 19 20:31:31 2022
 | Host         : L running 64-bit major release  (build 9200)
 | Command      : report_methodology -file processor_top_methodology_drc_routed.rpt -pb processor_top_methodology_drc_routed.pb -rpx processor_top_methodology_drc_routed.rpx
 | Design       : processor_top
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 2
+             Violations found: 4
 +-----------+----------+--------------------------------------------+------------+
 | Rule      | Severity | Description                                | Violations |
 +-----------+----------+--------------------------------------------+------------+
-| SYNTH-6   | Warning  | Timing of a RAM block might be sub-optimal | 1          |
+| SYNTH-6   | Warning  | Timing of a RAM block might be sub-optimal | 3          |
 | TIMING-18 | Warning  | Missing input or output delay              | 1          |
 +-----------+----------+--------------------------------------------+------------+
 
@@ -35,12 +35,22 @@ Table of Contents
 -----------------
 SYNTH-6#1 Warning
 Timing of a RAM block might be sub-optimal  
-The timing for the instance instr_mem/imem_out_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+The timing for the instance data_mem/dmem_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#2 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance data_mem/rom_data_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#3 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance instr_mem/instr_out_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
 Related violations: <none>
 
 TIMING-18#1 Warning
 Missing input or output delay  
-An input delay is missing on rst relative to clock(s) clk
+An input delay is missing on rst_n relative to clock(s) clk
 Related violations: <none>
 
 

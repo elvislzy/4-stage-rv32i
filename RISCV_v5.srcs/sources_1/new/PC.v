@@ -22,14 +22,14 @@
 
 module PC(
     input wire clk,
-    input wire rst,
+    input wire rst_n,
 	input wire en,
     input wire [31:0] pc_tmp,
     output reg [31:0] pc
     );
     
-    always @(posedge clk or negedge rst) begin
-        if (rst==0)
+    always @(posedge clk or negedge rst_n) begin
+        if (rst_n==0)
             pc	<= 32'h01000000;
         else if(en)
             pc	<= pc_tmp;

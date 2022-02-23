@@ -27,15 +27,16 @@ reg rst = 0;
 
 processor_top processor(
     .clk        (clk    ), 
-    .rst        (rst    )
+    .rst_n      (rst    )
 );
 
-wire [31:0] pc = processor.pc_out;
-wire [31:0] new_pc = processor.pc_in;
+wire [31:0] pc = processor.pc;
+wire [31:0] new_pc = processor.pc_tmp;
 wire [31:0] instruction = processor.instruction; 
 wire [31:0] alu_a = processor.rs1_data; 
 wire [31:0] alu_b = processor.operand2; 
 wire [31:0] alu_out = processor.alu_out; 
+wire [2:0]  state = processor.processor_ctrl.state;
 wire [31:0] r0 = processor.regfile.regfile[0]; 
 wire [31:0] r1 = processor.regfile.regfile[1]; 
 wire [31:0] r2 = processor.regfile.regfile[2];  
@@ -91,7 +92,7 @@ wire [31:0] signed_op1 = {{20{operand1[11]}},operand1[11:0]};
 wire [31:0] signed_op2 = {{20{operand2[11]}},operand2[11:0]};
 
 initial begin   
-    #1200;
+    #1500;
     if(r3 != signed_op1 + signed_op2)                       $fatal("Test case 'add' failed");
     if(r4 != signed_op1 - signed_op2)                       $fatal("Test case 'sub' failed");
     if(r5 != signed_op1 << signed_op2[4:0])                 $fatal("Test case 'sll' failed");

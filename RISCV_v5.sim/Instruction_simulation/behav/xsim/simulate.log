@@ -1,11 +1,11 @@
 Time resolution is 1 ps
-R7:    0, R8:    0, R9:    0
-R7: 11311762, R8:    0, R9:    0
-R7: 11311762, R8: 19816562, R9:    0
-R7: 11311762, R8: 19816562, R9: 17003972
-R7:    0, R8:    0, R9:    0
-R7: 11311762, R8:    0, R9:    0
-R7: 11311762, R8: 19816562, R9:    0
-R7: 11311762, R8: 19816562, R9: 17003972
-Memory Test cases passed
-$finish called at time : 1300 ns : File "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/Instruction_simulation/new/Memory_tb.v" Line 128
+R1:    0, R2:    0, R3:    0
+R1:   50, R2:    0, R3:    0
+R1:   50, R2: 4294965268, R3:    0
+R1:   50, R2: 4294965268, R3: 4294965318
+R1:    0, R2:    0, R3:    0
+R1:   50, R2:    0, R3:    0
+R1:   50, R2: 4294965268, R3:    0
+R1:   50, R2: 4294965268, R3: 4294965318
+Rtype Test case passed
+$finish called at time : 1600 ns : File "D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/Instruction_simulation/new/Rtype_tb.v" Line 108

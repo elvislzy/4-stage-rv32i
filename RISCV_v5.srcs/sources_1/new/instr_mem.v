@@ -40,21 +40,28 @@ module instr_mem(
 
   always @(posedge clk) begin
     if(instr_en) begin
-      imem_out <= imem[imem_addr];
+      instr_out <= imem[imem_addr];
     end
   end
 
-  assign imem_data = imem_out;
 
-  always @(*) begin
-    case(addr[1:0])
-      2'b00 : instr_out = imem_data;
-      2'b01 : instr_out = {imem_data[23:0],8'd0};
-      2'b10 : instr_out = {imem_data[15:0],16'd0};
-      2'b11 : instr_out = {imem_data[7:0],24'd0};
-      default : instr_out = 'hz;
-    endcase
-  end
+  // always @(posedge clk) begin
+  //   if(instr_en) begin
+  //     imem_out <= imem[imem_addr];
+  //   end
+  // end
+  
+  // assign imem_data = imem_out;
+
+  // always @(*) begin
+  //   case(addr[1:0])
+  //     2'b00 : instr_out = imem_data;
+  //     2'b01 : instr_out = {imem_data[23:0],8'd0};
+  //     2'b10 : instr_out = {imem_data[15:0],16'd0};
+  //     2'b11 : instr_out = {imem_data[7:0],24'd0};
+  //     default : instr_out = 'hz;
+  //   endcase
+  // end
 
 
 

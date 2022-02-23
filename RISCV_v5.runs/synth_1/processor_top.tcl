@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.runs/synth_1/processor_top.tcl"
+  variable script "D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.runs/synth_1/processor_top.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,8 +77,8 @@ create_project -in_memory -part xc7k70tfbv676-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.cache/wt [current_project]
-set_property parent.project_path C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.xpr [current_project]
+set_property webtalk.parent_dir D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.cache/wt [current_project]
+set_property parent.project_path D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo c:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/code/RISCV_v6/RISCV_v5.cache/ip [current_project]
@@ -86,20 +86,17 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/PC.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/alu.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/data_ext.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/data_mem.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/imm_gen.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/instr_mem.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/pc_adder.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/regfile.v
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/shifter.v
-}
-read_vhdl -library xil_defaultlib {
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/ALU_control.vhd
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/Control_unit.vhd
-  C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/sources_1/new/processor_top.vhd
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/PC.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/alu.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/alu_ctrl.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/data_ext.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/data_mem.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/imm_gen.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/instr_mem.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/processor_ctrl.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/regfile.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/shifter.v
+  D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/sources_1/new/processor_top.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -110,8 +107,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/constrs_1/new/1.xdc
-set_property used_in_implementation false [get_files C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/constrs_1/new/1.xdc]
+read_xdc D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/constrs_1/new/1.xdc
+set_property used_in_implementation false [get_files D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/constrs_1/new/1.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

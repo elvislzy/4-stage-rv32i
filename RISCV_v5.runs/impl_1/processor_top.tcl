@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.runs/impl_1/processor_top.tcl"
+  variable script "D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.runs/impl_1/processor_top.tcl"
   variable category "vivado_impl"
 }
 
@@ -129,15 +129,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.cache/wt [current_project]
-  set_property parent.project_path C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.xpr [current_project]
+  set_property webtalk.parent_dir D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.cache/wt [current_project]
+  set_property parent.project_path D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.xpr [current_project]
   set_property ip_output_repo C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/code/RISCV_v6/RISCV_v5.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.runs/synth_1/processor_top.dcp
+  add_files -quiet D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.runs/synth_1/processor_top.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/17289/OneDrive/Fall2021/ECE6463ADV_HARDWARE_DESIGN/RISC-V/milestone2/RISCV_v8/RISCV_v5.srcs/constrs_1/new/1.xdc
+  read_xdc D:/Code/RISCV/RTL/4-stage-rv32i/RISCV_v5.srcs/constrs_1/new/1.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

@@ -22,21 +22,21 @@
 
 module regfile(
     input wire clk,
-    input wire rst,
+    input wire rst_n,
     input wire we,        //write_enable control siginal
-    input wire [4:0] rd_addr,
-    input wire [4:0] rs1_addr,
-    input wire [4:0] rs2_addr,
-    input wire [31:0] rd_data_in,
-    output reg [31:0] rs1_data,
-    output reg [31:0] rs2_data
+    input wire [4:0]    rd_addr,
+    input wire [4:0]    rs1_addr,
+    input wire [4:0]    rs2_addr,
+    input wire [31:0]   rd_data_in,
+    output reg [31:0]   rs1_data,
+    output reg [31:0]   rs2_data
     );
     
     reg [31:0]  regfile [0:31];
     integer i;
 
-    always @(posedge clk or negedge rst) begin
-        if (!rst) begin
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
             for (i=0;i<=31;i=i+1) begin
                 regfile [i]     <= 32'b0;
             end
