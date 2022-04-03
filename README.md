@@ -1,4 +1,5 @@
 # rv32i
+
 single cycle
 
-![DATAPATH.png](/DATAPATH.png)
+![1649012259280.png](image/README/1649012259280.png)
